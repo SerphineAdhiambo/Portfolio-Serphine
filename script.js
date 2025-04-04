@@ -1,3 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Portfolio Loaded!");
-});
+function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("show");
+  }
+  

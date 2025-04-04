@@ -1,86 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serphine Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serphine Adhiambo | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Serphine</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <div class="toggle-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
 
-    <header>
-        <h1>Serphine Adhiambo</h1>
-        <p>Software Engineer | Web Developer</p>
-    </header>
+  <section id="home">
+    <h1>Welcome!</h1>
+    <p>I'm Serphine Adhiambo, a passionate Software Engineering student who enjoys building web solutions that matter.</p>
+  </section>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>    
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a curious, tech-savvy student driven by innovation and problem-solving. My goal is to use tech to create real impact and continuously grow as a developer.</p>
+  </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate and dedicated software engineer and web developer with a strong foundation in designing and building web-based systems. My academic background and project experience have equipped me with skills in developing user-friendly applications, implementing machine learning models, and ensuring software quality through testing and validation. I have hands-on experience from my internship in a web development company, where I worked on real-world projects and sharpened my problem-solving and programming abilities. I am committed to continuous learning, always exploring new technologies, and improving my technical and soft skills to deliver efficient and innovative solutions. My goal is to build impactful and high-quality web applications that solve real-world problems.</p>
-    </section>
+  <section id="education">
+    <h2>Education</h2>
+    <p>Bachelor's degree in Software Engineering</p>
+    <p>Relevant Skills: HTML, CSS, JavaScript, Python, Git</p>
+    <a href="assets/Adhiambo updated CV.pdf" class="cv-link" download>📄 Download My CV</a>
+  </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills & Technologies</h2>
-            <p>As a software engineer and web developer, I have gained proficiency in various technologies that help me build dynamic and responsive web applications. Below are the key skills and tools I specialize in:</p>
+  <section id="interests">
+    <h2>Interests</h2>
+    <ul>
+      <li>🌐 Web Development</li>
+      <li>🎨 UI/UX Design</li>
+      <li>🌱 Climate Tech</li>
+      <li>🧠 Problem Solving</li>
+    </ul>
+  </section>
 
-            <!-- Skill Set -->
-            <div class="skills-list">
-                <div class="skill">
-                    <h3>HTML & CSS</h3>
-                    <p>Building responsive, accessible, and visually appealing web pages.</p>
-                </div>
-                <div class="skill">
-                    <h3>JavaScript</h3>
-                    <p>Dynamic interactions and functionality with vanilla JS and frameworks like React.js.</p>
-                </div>
-                <div class="skill">
-                    <h3>Python</h3>
-                    <p>Building server-side applications using frameworks like Flask and Django.</p>
-                </div>
-                <div class="skill">
-                    <h3>Database Management</h3>
-                    <p>Working with relational databases like MySQL, PostgreSQL, and NoSQL databases like Firebase.</p>
-                </div>
-                <div class="skill">
-                    <h3>Version Control</h3>
-                    <p>Using Git for version control to collaborate effectively with teams and manage code changes.</p>
-                </div>
-                <div class="skill">
-                    <h3>Web Hosting</h3>
-                    <p>Deploying applications on GitHub Pages, Netlify, and other hosting services.</p>
-                </div>
-                <div class="skill">
-                    <h3>Problem Solving</h3>
-                    <p>Analyzing and solving real-world problems through software solutions and efficient algorithms.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/SerphineAdhiambo/FOURTH-YEAR-PROJECT" target="_blank">FOURTH-YEAR-PROJECT</a></li>
+  </section>
 
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:adhiamboserphine8@gmail.com">adhiamboserphine8@gmail.com</a></p>
+    <p>Phone: <a href="tel:+254701298544">0701298544</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/serphine-adhiambo-a68a3621b" target="_blank">serphine-adhiambo</a></p>
+    <p>GitHub: <a href="https://github.com/SerphineAdhiambo" target="_blank">SerphineAdhiambo</a></p>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>CKD PREDICTION SYSTEM</h3>
-            <p>A system that predicts Chronic Kidney Disease.</p>
-            <a href="https://github.com/SerphineAdhiambo/4th-yr-project" target="_blank">View Project</a>
-        </div>
-    </section>
+  <footer>
+    <p>© 2025 Serphine Adhiambo. All rights reserved.</p>
+  </footer>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: adhiamboserphine8@gmail.com</p>
-        <p>GitHub: <a href="hhttps://github.com/SerphineAdhiambo">github.com/SerphineAdhiambo</a></p>
-    </section>
-
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
+
